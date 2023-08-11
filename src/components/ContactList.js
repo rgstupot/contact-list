@@ -2,7 +2,7 @@ import { Contact } from "./Contact";
 
 export function ContactList({ contacts, handleDeleteContact }) {
   return (
-    <div className="d-flex p-2">
+    <div className="d-flex p-2  flex-wrap">
       {contacts.map((contact) => (
         <div className="d-flex p-2" key={contact.id}>
           <Contact
